@@ -11,7 +11,7 @@ async function bootstrapNest() {
 
 function start(){
     console.log(`Creating DB`);
-    new Database(":memory:", (error) => {
+    new Database("testDb.sqlite", (error) => {
         if(error){
             console.log(`ERROR opening DB: ${error}`)
             return;

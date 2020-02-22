@@ -1,6 +1,6 @@
 {
     "type": "sqlite",
-    "database": ":memory:",
+    "database": "testDb.sqlite",
     "entities": ["dist/**/*.entity.js"],
     "synchronize": false,
     "migrations": ["dist/migrations/*.js"],

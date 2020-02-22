@@ -9,9 +9,9 @@ export class User{
     @Column()
     public name: string;
 
-//     @Column()
-//     public age: number;
+    @Column()
+    public age: number;
 
-//     @Column()
-//     public address: string;
+    @Column()
+    public address: string;
 }
