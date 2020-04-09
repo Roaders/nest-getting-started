@@ -2,9 +2,9 @@
     "type": "sqlite",
     "database": "testDb.sqlite",
     "entities": ["dist/**/*.entity.js"],
-    "synchronize": false,
+    "synchronize": true,
     "migrations": ["dist/migrations/*.js"],
-    "migrationsRun": true,
+    "migrationsRun": false,
     "cli": {
         "migrationsDir": "src/migrations"
     }
